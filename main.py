@@ -78,9 +78,6 @@ def main(page: ft.Page):
 #_______________________________________________________________________________
 
 
-
-    
-
 #____________________________________________________________________________________
     # Função para exibir alertas no estilo SnackBar
     def show_warning(message):
@@ -167,8 +164,6 @@ def main(page: ft.Page):
     
 
     def mostrar_grafico_t_s(entropias, temperaturas):
-
-
         # Cria o gráfico
         fig, ax = plt.subplots()
         ax.plot(entropias, temperaturas, marker='o', linestyle='-', color='b')
@@ -365,12 +360,7 @@ def main(page: ft.Page):
 
             # Se todas as validações passaram
             resultado = Ciclos.rankineSimples(op1, p1_valor, t1_valor, p2_valor, op2, x3_valor, t3_valor)
-            
-            
-           
 
-
-        
             ft.Text("Resultados do Ciclo de Rankine Simples:", size=18)
 
             tabela_resultados.controls.clear()  
@@ -523,7 +513,6 @@ def main(page: ft.Page):
             ft.Container(content=container_direita, width=1000)
         ], alignment=ft.MainAxisAlignment.START)
 #________________________________________________________________________________________________________________________________
-
 
 
 #####################################################################################################
@@ -1003,8 +992,6 @@ def main(page: ft.Page):
         limpar_btn = ft.ElevatedButton("LIMPAR", on_click=limpar)  
         otimizar_btn = ft.ElevatedButton("OTIMIZAR ", on_click=otimizar) 
 
-       
-
         # Container para os campos de entrada  
         container_esquerda = ft.Column([  
             bomba_label,  
@@ -1191,9 +1178,7 @@ def main(page: ft.Page):
             except ValueError:  
                 show_warning("PREENCHA A PRESSÃO DA TURBINA COM UM NÚMERO VÁLIDO")  
                 return  
-
-
-           
+ 
             if checkbox_primeira_bomba2.value:  
                 try:  
                     y_valor = float(y.value)  
@@ -1346,10 +1331,8 @@ def main(page: ft.Page):
                 ) 
                 
                 page.update()  
-
-            
+          
 #______________________________________________________________________________________________________________________________________________________
-        
 
         # Função para limpar os campos preenchidos  
         def limpar(e):  
@@ -1374,9 +1357,6 @@ def main(page: ft.Page):
         calcular_btn = ft.ElevatedButton("CALCULAR", on_click=calcular)  
         limpar_btn = ft.ElevatedButton("LIMPAR", on_click=limpar)  
        
-
-       
-
         # Container para os campos de entrada  
         container_esquerda = ft.Column([  
             bomba_label,  
@@ -1418,7 +1398,6 @@ def main(page: ft.Page):
             ft.Container(content=container_direita, width=750)  
         ], alignment=ft.MainAxisAlignment.START)
 #___________________________________________________________________________________________________________________________________
-
 
 
 ################################################################################
@@ -1534,7 +1513,6 @@ def main(page: ft.Page):
         eficiencia_label = ft.Text("Entre com as eficiências isentrópicas das bombas e turbinas", size=15, weight=ft.FontWeight.BOLD)  
         n = ft.TextField(label="Entre com a eficiência isentrópica das bombas", width=400)  
         nt = ft.TextField(label="Entre com a eficiência isentrópica das turbinas", width=400)  
-       
 
         # Função de cálculo (placeholder)  
         def calcular(e):  
@@ -1574,8 +1552,6 @@ def main(page: ft.Page):
             if checkbox_titulo_turbina.value and not x5.value:  
                 show_warning("PREENCHA O TÍTULO DO ESTADO 5")  
                 return  
-
-
 
             try:  
                 m_valor = float(m.value)   
@@ -1676,7 +1652,6 @@ def main(page: ft.Page):
             else:  
                 x7_valor = None  
 
-
             tabela_resultados.controls.clear()  
 
             # Se todas as validações passaram  
@@ -1740,8 +1715,7 @@ def main(page: ft.Page):
             )  
             page.update()  
 #______________________________________________________________________________________________________________________________________________________
-        
-
+ 
         # Função para limpar os campos preenchidos  
         def limpar(e):  
             p1.value = ""  
@@ -1768,9 +1742,6 @@ def main(page: ft.Page):
 
         calcular_btn = ft.ElevatedButton("CALCULAR", on_click=calcular)  
         limpar_btn = ft.ElevatedButton("LIMPAR", on_click=limpar)  
-       
-
-       
 
         # Container para os campos de entrada  
         container_esquerda = ft.Column([  
@@ -1821,10 +1792,6 @@ def main(page: ft.Page):
             ft.Container(content=container_direita, width=700)  
         ], alignment=ft.MainAxisAlignment.START)
 #___________________________________________________________________________________________________________________________________
-
-
-    
-
 
     def criar_calculadora_propriedades():
         # Widget para a logo
@@ -1962,8 +1929,6 @@ def main(page: ft.Page):
             if not substancia:
                 show_warning("O FLUIDO DE TRABALHO NÃO FOI SELECIONADO")
                 return
-
-            
 
             opcoes = {
                 'Pressão': 'P',
@@ -2128,10 +2093,7 @@ def main(page: ft.Page):
 
                 page.update()
 
-                
-            
-
-                
+  
         # Função para limpar campos
         def limpar(e):
             propriedade_1.value = ""
@@ -2184,7 +2146,7 @@ def main(page: ft.Page):
 #__________________________PÁGINAS DOS EXEMPLOS_____________________________________________________
         # Função exemplo do ciclo
     def pageExemploSimples():
-        # Definindo a imagem (Substitua pelo caminho correto da imagem)
+        
         imagem_caminho = "exemplos/simples.png"  # Caminho da imagem enviada
 
         # Container para a imagem à esquerda
@@ -2233,7 +2195,7 @@ def main(page: ft.Page):
     
         # Função exemplo do ciclo
     def pageExemploReaquecimento():
-        # Definindo a imagem (Substitua pelo caminho correto da imagem)
+        
         imagem_caminho = "exemplos/reaquecimento1.png"  # Caminho da imagem enviada
 
         # Container para a imagem à esquerda
@@ -2284,7 +2246,7 @@ def main(page: ft.Page):
     
         # Função exemplo do ciclo
     def pageExemploRegenerativo():
-        # Definindo a imagem (Substitua pelo caminho correto da imagem)
+        
         imagem_caminho = "exemplos/regenerativo.png"  # Caminho da imagem enviada
 
         # Container para a imagem à esquerda
@@ -2334,7 +2296,7 @@ def main(page: ft.Page):
     
         # Função exemplo do ciclo
     def pageExemploRegenerativoReaquecimento():
-        # Definindo a imagem (Substitua pelo caminho correto da imagem)
+      
         imagem_caminho = "exemplos/regenerativocomreaquecimento.png"  # Caminho da imagem enviada
 
         # Container para a imagem à esquerda
@@ -2501,8 +2463,6 @@ def main(page: ft.Page):
             conteudo_pagina,
         ], alignment=ft.MainAxisAlignment.CENTER, horizontal_alignment=ft.CrossAxisAlignment.START)
     )
-
-
-    
+ 
 # Executa a aplicação Flet
 ft.app(target=main)
