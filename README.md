@@ -69,7 +69,7 @@ Seu objetivo é permitir que alunos e professores concentrem esforços na **aná
 
 ## No Linux
    
-3. Criar o ambiente virtual:
+3. Criar o ambiente virtual (Opcional):
    ```bash
     python.exe -m venv venv
       
@@ -77,7 +77,7 @@ Seu objetivo é permitir que alunos e professores concentrem esforços na **aná
    ```bash
    source /venv/bin/activate
       
-5. Comando para instalar as bibliotecas:
+5. Comando para instalar as bibliotecas (Obrigatório):
    ```bash
    pip install -r requirements.txt
         
