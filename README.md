@@ -2,7 +2,7 @@
 
 ## 📚 Descrição
 
-Este software é uma ferramenta didática desenvolvida em Python, com uma interface gráfica intuitiva, para estudo e otimização do **ciclo de Rankine** e suas variantes. Criado inicialmente para a comunidade acadêmica da **Universidade Federal do Oeste da Bahia (UFOB)**, ele é especialmente útil em disciplinas como **Termodinâmica Básica**, **Termodinâmica Aplicada**, **Sistemas Térmicos** e **Refrigeração**.
+Este software é uma ferramenta didática desenvolvida em Python, com uma interface gráfica intuitiva, para estudo e otimização do **ciclo de Rankine** e suas variantes. Criado inicialmente para a comunidade acadêmica da **Universidade Federal do Oeste da Bahia (UFOB)**, ele é útil em disciplinas como **Termodinâmica Básica**, **Termodinâmica Aplicada**, **Sistemas Térmicos** e **Refrigeração**.
 
 Seu objetivo é permitir que alunos e professores concentrem esforços na **análise e interpretação dos resultados**, deixando que a ferramenta cuide dos cálculos repetitivos.
 
