@@ -91,14 +91,10 @@ Seu objetivo é permitir que alunos e professores concentrem esforços na **aná
    ```bash
     python.exe -m venv venv
       
-4. Comando para ativar o ambiente virtual (Apenas para terminal Windows):
-   ```bash
-   /venv/Scripts/activate
-   
-5. Comando para instalar as bibliotecas:
+4. Comando para instalar as bibliotecas:
    ```bash
    pip install -r requirements.txt
 
-6. Execute o main.py 
+5. Execute o main.py 
    ```bash
    python.exe main.py
