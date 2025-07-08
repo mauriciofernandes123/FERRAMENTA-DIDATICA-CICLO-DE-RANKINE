@@ -67,7 +67,7 @@ Seu objetivo é permitir que alunos e professores concentrem esforços na **aná
    
 3. Criar o ambiente virtual:
    ```bash
-   python3 -m venv venv
+   python3.exe -m venv venv
       
 4. Comando para ativar o ambiente virtual
    ```bash
@@ -79,13 +79,13 @@ Seu objetivo é permitir que alunos e professores concentrem esforços na **aná
         
 6. Execute o main.py 
    ```bash
-   python3 main.py
+   python3.exe main.py
    
 ## No terminal Windows e IDE
    
 3. Comando para criar o ambiente virtual:
    ```bash
-   python3 -m venv venv
+   python3.exe -m venv venv
       
 4. Comando para ativar o ambiente virtual (Apenas para terminal Windows):
    ```bash
