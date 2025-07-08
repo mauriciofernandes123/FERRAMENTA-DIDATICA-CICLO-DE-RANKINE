@@ -45,12 +45,16 @@ Seu objetivo é permitir que alunos e professores concentrem esforços na **aná
 
 ---
 
+### 📈 Gráfico do Ciclo de Rankine com Reaquecimento
+![Gráfico Ciclo Reaquecimento](figuras/reaquecimento1.png)
+
+---
 ### ⚙️ Otimização do ciclo de Reaquecimento
 ![Otimização do Ciclo de Reaquecimento](figuras/otimizado.png)
 
 ---
 
-### 📈 Gráfico T-s do ciclo otimizado
+### 📈 Gráfico do ciclo otimizado
 ![Gráfico T-s do Ciclo Otimizado](figuras/otimizado1.png)
 
 ---
