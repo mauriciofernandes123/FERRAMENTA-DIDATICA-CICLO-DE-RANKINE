@@ -85,7 +85,7 @@ Seu objetivo é permitir que alunos e professores concentrem esforços na **aná
    ```bash
     python.exe main.py
    
-## Exemplo no Windows - IDE (Visual Studio Code)
+## No Windows - Terminal e IDE (Visual Studio Code)
    
 3. Comando para criar o ambiente virtual (Opcional):
    ```bash
