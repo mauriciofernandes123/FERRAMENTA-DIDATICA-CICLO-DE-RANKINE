@@ -87,11 +87,11 @@ Seu objetivo é permitir que alunos e professores concentrem esforços na **aná
    
 ## Exemplo no Windows - IDE (Visual Studio Code)
    
-3. Comando para criar o ambiente virtual:
+3. Comando para criar o ambiente virtual (Opcional):
    ```bash
     python.exe -m venv venv
       
-4. Comando para instalar as bibliotecas:
+4. Comando para instalar as bibliotecas (Obrigatório):
    ```bash
    pip install -r requirements.txt
 
