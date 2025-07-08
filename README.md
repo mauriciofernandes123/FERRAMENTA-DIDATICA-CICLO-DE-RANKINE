@@ -57,7 +57,7 @@ Seu objetivo é permitir que alunos e professores concentrem esforços na **aná
 
 ## 💻 Como instalar e executar
 
-1. Clone este repositório:
+1. Baixe ou clone este repositório:
    ```bash
    git clone https://github.com/mauriciofernandes123/CICLO-DE-RANKINE.git
 
@@ -67,7 +67,7 @@ Seu objetivo é permitir que alunos e professores concentrem esforços na **aná
    
 3. Criar o ambiente virtual:
    ```bash
-   python3.exe -m venv venv
+    python.exe -m venv venv
       
 4. Comando para ativar o ambiente virtual
    ```bash
@@ -79,13 +79,13 @@ Seu objetivo é permitir que alunos e professores concentrem esforços na **aná
         
 6. Execute o main.py 
    ```bash
-   python3.exe main.py
+    python.exe main.py
    
 ## No terminal Windows e IDE
    
 3. Comando para criar o ambiente virtual:
    ```bash
-   python3.exe -m venv venv
+    python.exe -m venv venv
       
 4. Comando para ativar o ambiente virtual (Apenas para terminal Windows):
    ```bash
@@ -97,4 +97,4 @@ Seu objetivo é permitir que alunos e professores concentrem esforços na **aná
 
 6. Execute o main.py 
    ```bash
-   python3 main.py
+   python.exe main.py
